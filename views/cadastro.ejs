@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>cadastro</title>
+    
+</head>
+
+<body>
+    <%- include('./header.ejs') %>
+        <form method="post">
+            <fieldset class="grupo">
+                <div class="componentes">
+                    <label>Nome:</label>
+                    <input type="text" name="nome">
+                </div>
+                <div class="componentes">
+                    <label>celular:</label>
+                    <input type="text" name="celular">
+                </div>
+                <div class="componentes">
+                    <label>maẽ:</label>
+                    <input type="text" name="mae">
+                </div>
+                <div class="componentes">
+                    <label>pai:</label>
+                    <input type="text" name="pai">
+                </div>
+                <div class="componentes">
+                    <label>cidade:</label>
+                    <input type="text" name="cidade">
+                </div>
+                <div class="componentes">
+                    <label>Email:</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="componentes">
+                    <label>Senha:</label>
+                    <input type="password" name="password">
+                </div>
+                
+            </fieldset>
+            <fieldset class="grupo">
+                <div class="componentes-2">
+                    <label>Qual dessas aplicações você desenvolve:</label>
+                    <label>
+                        <input type="radio" name="devWeb" value="front-end">
+                        front-end
+                    </label>
+                    <label>
+                        <input type="radio" name="devWeb" value="back-end">
+                        back-end
+                    </label>
+                    <label>
+                        <input type="radio" name="devWeb" value="full-stack">
+                        full-stack
+                    </label>
+                    <div>
+            </fieldset>
+            <fieldset class="grupo">
+                <div>
+                    <label>Qual dessas linguagens você tem interesse:</label>
+                    <input type="checkbox" name="devWeb" value="pyton">
+                    pyton
+                    </label>
+                    <label>
+                        <input type="checkbox" name="devWeb" value="php">
+                        php
+                    </label>
+                    <label>
+                        <input type="checkbox" name="devWeb" value="java">
+                        java
+                    </label>
+                    <label>
+                        <input type="checkbox" name="devWeb" value="java script">
+                        java script
+                    </label>
+                </div>
+            </fieldset>
+            <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+            <div class="botao-ipt">
+                <input class="botao" type="submit" value="concluir">
+            </div>
+        </form>
+        <form action="/listinha" method="post">
+            <input type="submit" value="ver lista">
+        </form>
+        <%-include('rodape')%>
+</body>
+</htmml>
