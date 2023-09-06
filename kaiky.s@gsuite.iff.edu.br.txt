@@ -1,1 +1,0 @@
-{"nome":"kaiky souza borges","celular":"22 997761955","mae":"priscilla ","pai":"enivaldo","cidade":"carapebus Rj","email":"kaiky.s@gsuite.iff.edu.br","password":"12345","devWeb":["front-end","java script"]}
